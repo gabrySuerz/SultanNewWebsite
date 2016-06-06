@@ -1,4 +1,4 @@
-﻿var sultanSite = angular.module('sultanSite', ['ui.router']);
+﻿var sultanSite = angular.module('sultanSite', ['ngRoute']);
 
 sultanSite.config(function ($stateProvider, $urlRouterProvider) {
 
