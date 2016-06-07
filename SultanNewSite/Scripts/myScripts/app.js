@@ -1,6 +1,6 @@
-﻿var sultanSite = angular.module('sultanSite', ['ngRoute']);
+﻿var site = angular.module('sultanSite', ['ui.router'])
 
-sultanSite.config(function ($stateProvider, $urlRouterProvider) {
+site.config(function ($stateProvider, $urlRouterProvider) {
 
     $urlRouterProvider.otherwise('/home');
 
@@ -9,5 +9,25 @@ sultanSite.config(function ($stateProvider, $urlRouterProvider) {
             url: '/home',
             templateUrl: 'htmlPages/home.html',
             controller: 'homeController'
-        });
-});
+        })
+        .state('prodotti', {
+            url: '/prodotti',
+            templateUrl: 'htmlPages/prodotti.html',
+            controller: 'productsController'
+        })
+        .state('scopri', {
+            url: '/scopri',
+            templateUrl: 'htmlPages/scopri.html',
+            controller: 'showMoreController'
+        })
+        .state('news', {
+            url: '/news',
+            templateUrl: 'htmlPages/news.html',
+            controller: 'newsController'
+        })
+        .state('contatti', {
+            url: '/contatti',
+            templateUrl: 'htmlPages/contatti.html',
+            controller: 'contactsController'
+        })
+})
