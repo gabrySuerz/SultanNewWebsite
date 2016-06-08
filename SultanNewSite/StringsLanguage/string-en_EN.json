@@ -1,0 +1,26 @@
+﻿{
+  "TOPBAR": {
+    "IMAGE": "/Images/icon-it.png",
+    "ABOUT-US": "About us",
+    "CONTACT-US": "Contacts",
+    "LANGUAGE": "Cambia Lingua"
+  },
+  "HOME": {
+    "TITLE_HOME": "Sultan LTD - Naval Supply and Outfitting",
+    "DESCRIPTION": {
+      "D1": "Founded in 2003 in Romans d'Isonzo (Gorizia) on a female entrepreneurial initiative, Sultan is now a renowned company in the international field of naval fittings. The company designs, manufactures, and provides assistance to the shipbuilding sector (plant and equipment).",
+      "D2": "It has carried out projects on the most prestigious cruise ships and mega yachts, therefore qualifying as an undisputed partner for quality, technological research and innovation. In recent years it has developed various research projects, including the “Naumatest” project, elaborated in collaboration with the University La Sapienza of Rome and co-financed by the Region Friuli Venezia Giulia, for the realization of a highly innovative material testing machine.",
+      "D3": "Sultan is a reality in cutting edge technology, quality and service, capable of establishing a direct and continuous relationship with its customers in order to meet the most diverse needs."
+    },
+    "TARGETS": {
+      "T1": "Among the many targets Sultan has, the most important one is to be acknowledged as specialists in the realization of complex projects in the high range sector (cruise ships and mega yacht), through the improvement of business competitiveness, customer satisfaction, involvement of employees and a strong partnership with our suppliers.",
+      "T2": "Besides the internal market, other reference markets are Italy, United States, Germany and Great Britain, with the aim of reaching new emerging markets."
+    }
+  },
+  "ABOUT-US": {
+
+  },
+  "CONTACTS": {
+
+  }
+}

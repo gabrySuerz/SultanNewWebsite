@@ -1,5 +1,8 @@
-﻿var site = angular.module('sultanSite', ['ui.router'])
+﻿//app.js keeps the configurations of
 
+var site = angular.module('sultanSite', ['ui.router', 'pascalprecht.translate', 'ngParallax'])
+
+//configuring the router of the site
 site.config(function ($stateProvider, $urlRouterProvider) {
 
     $urlRouterProvider.otherwise('/home');
@@ -8,7 +11,7 @@ site.config(function ($stateProvider, $urlRouterProvider) {
         .state('home', {
             url: '/home',
             templateUrl: 'htmlPages/home.html',
-            controller: 'homeController'
+            controller: 'homeCtrl'
         })
         .state('prodotti', {
             url: '/prodotti',
@@ -30,4 +33,16 @@ site.config(function ($stateProvider, $urlRouterProvider) {
             templateUrl: 'htmlPages/contatti.html',
             controller: 'contactsController'
         })
+})
+
+//use the translateProvider to pick Json in any language
+//and set the default
+site.config(function ($translateProvider) {
+
+    $translateProvider.useStaticFilesLoader({
+        prefix: '../../StringsLanguage/string-',
+        suffix: '.json'
+    });
+
+    $translateProvider.preferredLanguage('it_IT')
 })
