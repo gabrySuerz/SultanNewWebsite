@@ -5,36 +5,64 @@
     <title>Sultan Srl</title>
     <meta charset="utf-8" />
 
-    <link rel="stylesheet" type="text/css" href="Content/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="Content/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="Styles/style.css" />
 
-    <script type="text/javascript" src="Scripts/angular.js"></script>
-    <script type="text/javascript" src="Scripts/router.js"></script>
+    <script type="text/javascript" src="Scripts/jquery-2.2.3.min.js"></script>
+    <script type="text/javascript" src="Scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="Scripts/angular.min.js"></script>
+    <script type="text/javascript" src="Scripts/angular-ui-router.min.js"></script>
+    <script type="text/javascript" src="Scripts/angular-translate.min.js"></script>
+    <script type="text/javascript" src="Scripts/angular-translate-loader-static-files.min.js"></script>
+    <script type="text/javascript" src="Scripts/angular-parallax.min.js"></script>
 
     <script type="text/javascript" src="Scripts/myScripts/app.js"></script>
+    <script type="text/javascript" src="Scripts/myScripts/factory.js"></script>
     <script type="text/javascript" src="Scripts/myScripts/controller.js"></script>
 </head>
 
 <body ng-app="sultanSite">
-    <div class="container">
-        <header class="row">
-            <h1>Sultan Srl</h1>
-            <nav class="col-md-12">
-                <div class="navbar">
-                    <div class="navbar-collapse">
-                        <ul class="nav nav-pills">
-                            <li role="presentation" ui-sref-active="active"><a ui-sref="home">Home</a></li>
-                            <li role="presentation" ui-sref-active="active"><a ui-sref="scopri">Scopri di pi&ugrave; su noi</a></li>
-                            <li role="presentation" ui-sref-active="active"><a ui-sref="contatti">Contatti</a></li>
+    <div class="container-fluid" ng-controller="mainCtrl">
+        <div class="row">
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" ui-sref="home"><img src="Images/favicon-sultan.png" /></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a ui-sref="home"><span id="azienda">SULTAN</span></a></li>
+                            <li ui-sref-active="active"><a ui-sref="scopri"><span translate="TOPBAR.ABOUT-US"></span></a></li>
+                            <li ui-sref-active="active"><a ui-sref="contatti" translate="TOPBAR.CONTACT-US"></a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><button id="changeLanguage" type="button" class="btn btn-toolbar" ng-style="{'background-image': 'url(' + image + ')'}" ng-click="toggleLang()" translate="TOPBAR.LANGUAGE"></button></li>
                         </ul>
                     </div>
                 </div>
             </nav>
-        </header>
+        </div>
+        <div class="row">
+            <div class='containerParallax' ng-init="myPattern='Images/princess.jpg'">
+                <div class='box1'>
+                    <div ng-parallax pattern="myPattern" speed="0"></div>
+                </div>
+            </div>
+            <div class='containerParallax' ng-init="myPattern='Images/fascination.jpg'">
+                <div class='box1'>
+                    <div ng-parallax pattern="myPattern" speed="0"></div>
+                </div>
+            </div>
+        </div>
         <div class="row" ui-view>
 
         </div>
     </div>
-
 </body>
 </html>

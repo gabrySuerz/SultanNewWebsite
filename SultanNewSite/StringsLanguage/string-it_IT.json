@@ -1,0 +1,26 @@
+﻿{
+  "TOPBAR": {
+    "IMAGE": "/Images/icon-en.png",
+    "ABOUT-US": "Scopri di pi&ugrave; di noi",
+    "CONTACT-US": "Contatti",
+    "LANGUAGE": "Change Language"
+  },
+  "HOME": {
+    "TITLE_HOME": "SULTAN s.r.l. - Forniture e Allestimenti Navali",
+    "DESCRIPTION": {
+      "D1": "Nata a Romans d’Isonzo (Gorizia) nel 2003 da un’iniziativa di imprenditoria femminile, Sultan è oggi una realtà conosciuta anche in campo internazionale. L’azienda progetta, produce e fornisce assistenza su prodotti dedicati al comparto navale (allestimenti e impiantistica).",
+      "D2": "Ha al suo attivo interventi e commesse sulle più prestigiose navi da crociera e mega yatch, qualificandosi come partner indiscusso per qualità, ricerca tecnologica ed innovazione.  Negli ultimi anni ha sviluppato varie attività di ricerca, tra cui il progetto 'Naumatest', sviluppato in collaborazione con l’Università La Sapienza e cofinanziata dalla Regione, per la realizzazione di una macchina altamente innovativa per test sui materiali.",
+      "D3": "Sultan è una realtà all’avanguardia nelle tecnologie, nella qualità e nel servizio, in grado d’instaurare un dialogo diretto e continuo con i propri clienti al fine di soddisfare le necessità più diverse."
+    },
+    "TARGETS": {
+      "T1": "Tra gli obiettivi di Sultan il più sentito è quello di essere riconosciuti come gli specialisti nella realizzazione di commesse complesse nel settore alto di gamma (navi e mega yatch), attraverso il miglioramento della competitività aziendale, la soddisfazione del cliente, il coinvolgimento dei collaboratori e la creazione di una forte partnership con i fornitori.",
+      "T2": "I mercati di riferimento, oltre a quello interno, sono Stati Uniti, Germania e Gran Bretagna, con l’ottica di presidiare anche nuovi mercati emergenti."
+    }
+  },
+  "ABOUT-US": {
+
+  },
+  "CONTACTS": {
+
+  }
+} 
