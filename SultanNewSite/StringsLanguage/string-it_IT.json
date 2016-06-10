@@ -1,4 +1,6 @@
-﻿{
+﻿//Json language array for Italian
+
+{
   "TOPBAR": {
     "IMAGE": "/Images/icon-en.png",
     "ABOUT-US": "Scopri di pi&ugrave; di noi",
@@ -8,28 +10,43 @@
   "HOME": {
     "TITLE_HOME": "SULTAN s.r.l. - Forniture e Allestimenti Navali",
     "DESCRIPTION": {
-      "D1": "Nata a Romans d’Isonzo (Gorizia) nel 2003 da un’iniziativa di imprenditoria femminile, Sultan è oggi una realtà conosciuta anche in campo internazionale. L’azienda progetta, produce e fornisce assistenza su prodotti dedicati al comparto navale (allestimenti e impiantistica).",
-      "D2": "Ha al suo attivo interventi e commesse sulle più prestigiose navi da crociera e mega yatch, qualificandosi come partner indiscusso per qualità, ricerca tecnologica ed innovazione.  Negli ultimi anni ha sviluppato varie attività di ricerca, tra cui il progetto 'Naumatest', sviluppato in collaborazione con l’Università La Sapienza e cofinanziata dalla Regione, per la realizzazione di una macchina altamente innovativa per test sui materiali.",
+      "D1": "Nata a Romans d’&#39Isonzo (Gorizia) nel 2003 da un’iniziativa di imprenditoria femminile, Sultan è oggi una realtà conosciuta anche in campo internazionale. L’azienda progetta, produce e fornisce assistenza su prodotti dedicati al comparto navale (allestimenti e impiantistica).",
+      "D2": "Ha al suo attivo interventi e commesse sulle più prestigiose navi da crociera e mega yatch, qualificandosi come partner indiscusso per qualità, ricerca tecnologica ed innovazione.  Negli ultimi anni ha sviluppato varie attività di ricerca, tra cui il progetto <dfn>“Naumatest”</dfn>, sviluppato in collaborazione con l’Università La Sapienza e cofinanziata dalla Regione, per la realizzazione di una macchina altamente innovativa per test sui materiali.",
       "D3": "Sultan è una realtà all’avanguardia nelle tecnologie, nella qualità e nel servizio, in grado d’instaurare un dialogo diretto e continuo con i propri clienti al fine di soddisfare le necessità più diverse."
     },
     "TARGETS": {
       "T1": "Tra gli obiettivi di Sultan il più sentito è quello di essere riconosciuti come gli specialisti nella realizzazione di commesse complesse nel settore alto di gamma (navi e mega yatch), attraverso il miglioramento della competitività aziendale, la soddisfazione del cliente, il coinvolgimento dei collaboratori e la creazione di una forte partnership con i fornitori.",
-      "T2": "I mercati di riferimento, oltre a quello interno, sono Stati Uniti, Germania e Gran Bretagna, con l’ottica di presidiare anche nuovi mercati emergenti."
+      "T2": "I mercati di riferimento, oltre a quello interno, sono Stati Uniti, Germania e Gran Bretagna, con l’ottica di presidiare anche nuovi mercati emergenti.",
+      "STRONG": {
+        "POINTS": [
+          { "value": "Azienda Giovane" },
+          { "value": "Lavoro In Team" },
+          { "value": "Forte Rapporto Con I Clienti" },
+          { "value": "Partnership Con I Fornitori" },
+          { "value": "Condivisione Dei Valori" },
+          { "value": "Flessibit&agrave; Operativa" },
+          { "value": "Personale Altamente Formato E Qualificato" }
+        ],
+        "DESCRIPTION": "Sultan possiede una struttura agile e snella caratterizzata da competenze in grado di gestire e seguire il cliente in ogni sua necessità: pre-vendita, ricerca e sviluppo, ufficio tecnico e progettazione, personale operativo in missione a bordo nave, per trovare la soluzione più idonea sia dal punto di vista della produttività che dell’ottimizzazione del budget."
+      }
+    },
+    "CERTIFICATION": {
+      "ISO-9001": "Sultan ha certificato il proprio sistema di qualità in riferimento alla norma <strong>UNI EN ISO 9001:2008</strong> con il riconoscimento di <mark>RINA Services</mark>: <cite>Progettazione e produzione di prodotti di carpenteria; assistenza e commercializzazione di componenti ed accessori forniti a bordo nave.<cite> Luglio 2011",
+      "CERTIFICATION-IMAGE": ""
     }
   },
   "ABOUT-US": {
-    "ReD": {
+    "R&D": {
 
     },
-    "News": {
+    "SECURITY": {
 
     },
-    "Security": {
+    "NEWS": {
 
     }
-
   },
   "CONTACTS": {
 
   }
-} 
+}

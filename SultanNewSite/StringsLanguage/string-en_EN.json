@@ -8,17 +8,41 @@
   "HOME": {
     "TITLE_HOME": "Sultan LTD - Naval Supply and Outfitting",
     "DESCRIPTION": {
-      "D1": "Founded in 2003 in Romans d'Isonzo (Gorizia) on a female entrepreneurial initiative, Sultan is now a renowned company in the international field of naval fittings. The company designs, manufactures, and provides assistance to the shipbuilding sector (plant and equipment).",
-      "D2": "It has carried out projects on the most prestigious cruise ships and mega yachts, therefore qualifying as an undisputed partner for quality, technological research and innovation. In recent years it has developed various research projects, including the “Naumatest” project, elaborated in collaboration with the University La Sapienza of Rome and co-financed by the Region Friuli Venezia Giulia, for the realization of a highly innovative material testing machine.",
+      "D1": "Founded in 2003 in Romans d&#39Isonzo (Gorizia) on a female entrepreneurial initiative, Sultan is now a renowned company in the international field of naval fittings. The company designs, manufactures, and provides assistance to the shipbuilding sector (plant and equipment).",
+      "D2": "It has carried out projects on the most prestigious cruise ships and mega yachts, therefore qualifying as an undisputed partner for quality, technological research and innovation. In recent years it has developed various research projects, including the <dfn>“Naumatest”</dfn> project, elaborated in collaboration with the University La Sapienza of Rome and co-financed by the Region Friuli Venezia Giulia, for the realization of a highly innovative material testing machine.",
       "D3": "Sultan is a reality in cutting edge technology, quality and service, capable of establishing a direct and continuous relationship with its customers in order to meet the most diverse needs."
     },
     "TARGETS": {
       "T1": "Among the many targets Sultan has, the most important one is to be acknowledged as specialists in the realization of complex projects in the high range sector (cruise ships and mega yacht), through the improvement of business competitiveness, customer satisfaction, involvement of employees and a strong partnership with our suppliers.",
-      "T2": "Besides the internal market, other reference markets are Italy, United States, Germany and Great Britain, with the aim of reaching new emerging markets."
+      "T2": "Besides the internal market, other reference markets are Italy, United States, Germany and Great Britain, with the aim of reaching new emerging markets.",
+      "STRONG": {
+        "POINTS": [
+          { "value": "Young Company" },
+          { "value": "TeamWork" },
+          { "value": "Strong Customer Relationship" },
+          { "value": "Partnership With Suppliers" },
+          { "value": "Shared Value" },
+          { "value": "Operational Flexibility" },
+          { "value": "Highly Trained And Qualified Staff" }
+        ],
+        "DESCRIPTION": "Sultan has a well-coordinated, streamlined structure which is characterized by skills that are able to manage and follow the customer in their every need: pre-sale, research and development, technical and engineering, personnel on board the ship, whether to find the most suitable solution from the productivity point of view or that of budget optimization."
+      }
+    },
+    "CERTIFICATION": {
+      "ISO-9001": "Sultan has certified its quality system in reference to the standard <strong>UNI EN ISO 9001:2008</strong>: <blockquote><cite>Design and production of carpentry products; assistance and marketing of components and accessories supplied on board ship.</cite></blockquote><footer> with the recognition of <mark>RINA Services</mark>  July 2011</footer>",
+      "CERTIFICATION-IMAGE": ""
     }
   },
   "ABOUT-US": {
+    "R&D": {
 
+    },
+    "SECURITY": {
+
+    },
+    "NEWS": {
+
+    }
   },
   "CONTACTS": {
 
