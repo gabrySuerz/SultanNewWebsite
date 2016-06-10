@@ -96,7 +96,7 @@
             "DESCRIPTION": "Conoscenza disposizioni legislative che regolano la gestione dei rischi presso l’azienda, con particolare attenzione alla valutazione del pericolo dato dall’altezza. Principali strumenti di protezione del lavoratore contro le cadute, descrizione dei metodi di posizionamento e gestione delle procedure che permettano un corretto approccio al lavoro in quota."
           },
           {
-            "C4TITLE": "Adempimenti alla formazione obbligatoria",
+            "TITLE": "Adempimenti alla formazione obbligatoria",
             "DESCRIPTION": "(secondo il D.Lgs. n.81/2008 “Testo Unico” sulla salute e sicurezza nei luoghi di lavoro ed il nuovo accordo Stato-Regioni 21/12/2011)"
           },
           {
@@ -108,7 +108,21 @@
             "DESCRIPTION": ""
           }
         ]
+      }
+
+          
+          "C7TITLE": "Corsi di aggiornamento sulla contabilità e gestione aziendale.",
+
+          "C8TITLE": "Inglese tecnico",
+          "C8": "La gestione delle commesse estere, in collaborazione con ENFAP FVG",
+
+          "C9": "Cad 3D (in programma)",
+
+          "C10": "Manutentori superfici decorate / sigillatori (2014)"
+        }
+
       },
+
       "NEWS": {
 
       }
