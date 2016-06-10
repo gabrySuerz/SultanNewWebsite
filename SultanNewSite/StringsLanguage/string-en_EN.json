@@ -35,24 +35,40 @@
   },
   "ABOUT-US": {
     "R&D": {
-      "DESCRIPTION1": "",//vedi tu in quanto  dividere
-      "PROJECT1": {
-        //title ...
+      "DESCRIPTION1": "The interest of SULTAN has been mainly addressed to developing innovative materials and technical solutions in order to improve naval products and production systems. That is why the company actively cooperates with:",
+      "PARTNERS": {
+        "P1": "CATAS SPA. The chief Italian research and testing institute in the wood-furniture field, but it's also a center of excellence for research and analysis in the agro-food, industrial and environmental.",
+        "P2": "UNIVERSITY <cite>LA SAPIENZA</cite> in ROME. Mechanical and Aerospace Engineering Dpt.",
+        "P3": "CNR - INSEAN,  Research Institute in the field of naval and maritime engineering, part of the National Research Council - Energy and Transport Department.",
+        "P4": "Sultan joined the NATIONAL TECHNOLOGICAL CLUSTER <cite>TRASPORTI ITALIA 2020</cite>. The Plan identifies the multiannual orientations for Rail Transport, Automotive, Maritime and Intermodal/Logistics sector. Also it describes the system of governance for the Cluster, providing specific roles to Large Enterprises, SMEs, Universities and Research Bodies, Regions, etc.. in order to recover the competitiveness of <cite>Made in Italy</cite>."
       },
-      "PROJECT2": {
+      "PROJECTS": {
+        "P1TITLE": "Naumatest – Development and realisation of a device for accelerated tests on naval-related materials.",
+        "P1": "<cite>In collaboration with the University La Sapienza of Rome</cite>.<br/><br/>Within the naval-related production and installation of materials, a significant problem for producers and installators is to ensure product quality and durability throughout time. Environmental strains affecting naval materials are particularly powerful, especially in case of installations realized on ship decks, where they are exposed both to weather conditions and mechanical stress. The main goal of the NAUMATEST project was to develop a new testing device for testing such materials, in order to be able to ensure the following requirements:",
+        "P1_UL1": "Tests acceleration potential: testing of short duration (few days), but that simulate the behavior of the material during the course of its entire life, which can last for years.",
+        "P1_UL2": "Ability to combine very different tests: saline, exposure to UV radiation, thermal cycles, abrasive wear, shock, vibrations, etc.",
+        "P1_3": "Because of the high complexity of design and production, the device has no analogues on the market. In fact, through a single device it will be able to test materials used in the naval outfitting, considering the unfavorable environmental conditions  found in tropical zones, and wear due to their intensive use. The collaboration between Sultan and <cite>La Sapienza</cite>, established during the preliminary phase and the implementation of the project, is currently underway and has led Sultan to be inserted in the Ministerial project Cluster Italy 2020 about the Marine Mobility <cite>TRIM Industrial Research and Technology for Marine Mobility</cite> in partnership with <cite>La Sapienza</cite> and Fincantieri and the only small/medium-sized company in Friuli Venezia Giulia.",
+        "P1_4": "Also thanks to this project, Sultan got the regional contribution for the realization of equipment designed to perform test on applied/used materials.",
+
+        "P2TITLE": "Dip Print System Refresh - new method for the maintenance of surfaces treated with water transfer printing decorative system.",
+        "P2": "<cite>The project is designed by the research and development area of Sultan</cite>.<br/><br/> The corroded metal surface, after being subjected to a light mechanical type treatment, is coated by two layers of a liquid mixture using a brush, whose main element is an acrylic matt transparent two-component <cite>20 Gloss</cite> product. We achieved the following result:",
+        "P2_UL1": "regenerated surface",
+        "P2_UL2": "Increased resistance to wear over time",
+        "P2_3": "The aging tests on <cite>Dip Print System Refresh</cite> treatment demonstrated the excellent stability of the product visually and mechanically.",
+
+        "P3TITLE": "Soffitto a doghe in PVC – ricerca progettuale e realizzazione soffitto a doghe in PVC.",
+        "P3": "<cite>The project is designed by the research and development area of Sultan.</cite>.<br/><br/> Sultan innovative product has the following features:",
+        "P3_UL1": "the selection of the mixes of colors, with an exclusive code of Sultan, has allowed to obtain a product esthetically equal to Teak.",
+        "P3_UL2": "excellent mechanical strength and easy to clean",
+        "P3_UL3": "it can be supplemented with special fixing systems for lighting and doors, built entirely in AISI 316 stainless steel and painted with certificate furnace system."
+      },
+      "SECURITY": {
 
       },
-      "PROJECT3": {
+      "NEWS": {
 
       }
     },
-    "SECURITY": {
-
-    },
-    "NEWS": {
-
-    }
-  },
   "CONTACTS": {
 
   }

@@ -10,7 +10,7 @@
   "HOME": {
     "TITLE_HOME": "SULTAN s.r.l. - Forniture e Allestimenti Navali",
     "DESCRIPTION": {
-      "D1": "Nata a Romans d’&#39Isonzo (Gorizia) nel 2003 da un’iniziativa di imprenditoria femminile, Sultan è oggi una realtà conosciuta anche in campo internazionale. L’azienda progetta, produce e fornisce assistenza su prodotti dedicati al comparto navale (allestimenti e impiantistica).",
+      "D1": "Nata a Romans d’Isonzo (Gorizia) nel 2003 da un’iniziativa di imprenditoria femminile, Sultan è oggi una realtà conosciuta anche in campo internazionale. L’azienda progetta, produce e fornisce assistenza su prodotti dedicati al comparto navale (allestimenti e impiantistica).",
       "D2": "Ha al suo attivo interventi e commesse sulle più prestigiose navi da crociera e mega yatch, qualificandosi come partner indiscusso per qualità, ricerca tecnologica ed innovazione.  Negli ultimi anni ha sviluppato varie attività di ricerca, tra cui il progetto <dfn>“Naumatest”</dfn>, sviluppato in collaborazione con l’Università La Sapienza e cofinanziata dalla Regione, per la realizzazione di una macchina altamente innovativa per test sui materiali.",
       "D3": "Sultan è una realtà all’avanguardia nelle tecnologie, nella qualità e nel servizio, in grado d’instaurare un dialogo diretto e continuo con i propri clienti al fine di soddisfare le necessità più diverse."
     },
@@ -31,23 +31,85 @@
       }
     },
     "CERTIFICATION": {
-      "ISO-9001": "Sultan ha certificato il proprio sistema di qualità in riferimento alla norma <strong>UNI EN ISO 9001:2008</strong> con il riconoscimento di <mark>RINA Services</mark>: <cite>Progettazione e produzione di prodotti di carpenteria; assistenza e commercializzazione di componenti ed accessori forniti a bordo nave.<cite> Luglio 2011",
+      "ISO-9001": "Sultan ha certificato il proprio sistema di qualità in riferimento alla norma <strong>UNI EN ISO 9001:2008</strong> con il riconoscimento di <mark>RINA Services</mark>: <cite>Progettazione e produzione di prodotti di carpenteria; assistenza e commercializzazione di componenti ed accessori forniti a bordo nave.</cite> Luglio 2011",
       "CERTIFICATION-IMAGE": ""
     }
   },
   "ABOUT-US": {
-      "DESCRIPTION1": "",//vedi tu in quanto dividere
-    "PROJECT1": {
-      //title ...
-    },
-      "PROJECT2": {
+
+    "R&D": {
+      "DESCRIPTION1": "Una delle aree maggiormente sviluppate da Sultan è quella relativa alla ricerca e sviluppo. Studio di, materiali innovativi, e ricerca, di soluzioni, tecnologicamente all'avanguardia sono gli obiettivi che Sultan persegue, anche grazie alla collaborazione con:",
+      "PARTNERS": {
+        "P1": "CATAS Spa è il più grande istituto italiano ed europeo nella certificazione, ricerca e prove nel settore legno-arredo, ma anche un polo di eccellenza per la ricerca e l’analisi nel settore agro-alimentare, industriale e ambientale.",
+        "P2": "UNIVERSITÀ “LA SAPIENZA” DI ROMA - Dipartimento di Ingegneria Meccanica e Aerospaziale.",
+        "P3": "CNR–INSEAN, istituto di Ricerca nel settore dell'ingegneria navale e marittima nell'ambito del Consiglio Nazionale delle Ricerche - Dipartimento Energia e Trasporti.",
+        "P4": "Sultan ha aderito al CLUSTER TECNOLOGICO NAZIONALE <cite>TRASPORTI ITALIA 2020</cite>, che si pone l’obiettivo di creare il collegamento tra le filiere modali di sviluppo dei mezzi e sistemi per la mobilità su gomma, su rotaia, su vie d’acqua e dell’intermodalità, al fine di generare, per la Ricerca e Innovazione in questi Settori,delle linee guida orientate ad approcci di Sistema e mirate al recupero della competitività del <cite>Made in Italy</cite>."
+      },
+      "PROJECTS": {
+        "P1TITLE": "Naumatest – Ricerca progettuale macchina per test combinati sui materiali per allestimento navale",
+        "P1": "<cite>In collaborazione con l’Università “La Sapienza” di Roma</cite>.<br/><br/> Nell’ambito della produzione ed installazione di materiali per impiego navale un problema rilevante per i produttori e gli installatori è quello di garantire al committente la qualità e la resistenza del prodotto nel tempo. Le sollecitazioni ambientali a cui è sottoposto un materiale di impiego nautico sono infatti particolarmente gravose soprattutto quando riguardano le installazioni sui ponti esposti",
+        "P1_2": "sia agli agenti atmosferici che a sollecitazioni meccaniche. L’obiettivo principale del progetto NAUMATEST è stato quello di sviluppare una nuova macchina per test su tali materiali che possa garantire i requisiti che seguono:",
+        "P1_UL1": "Capacità di accelerazione delle prove: effettuare test di durata breve, nell’ordine di giorni, ma che simulino ed indichino il comportamento del materiale durante il corso della sua intera vita, che si può protrarre per anni.",
+        "P1_UL2": "Capacità di combinare test di natura molto diversa tra loro: nebbie saline, esposizione raggi UV, cicli termici, usura per abrasione, shock, vibrazioni, ecc.",
+        "P1_3": "La macchina, data l’alta complessità progettuale e realizzativa, non presenta analoghi in commercio. Infatti, attraverso un unico dispositivo sarà possibile testare i materiali per l’allestimento navale, tenendo conto del sommarsi delle sfavorevoli condizioni ambientali riscontrabili nelle zone tropicali, e dell'usura dovuta al loro intenso utilizzo. La collaborazione tra Sultan e <cite>La Sapienza</cite>, consolidata durante la fase preliminare e la realizzazione del progetto,",
+        "P1_4": "è attualmente in corso ed ha portato Sultan ad essere inserita nel progetto ministeriale Cluster Italy 2020 sulla Mobilità Marina “TRIM Tecnologia e Ricerca Industriale per la Mobilità Marina” in partnership con “La Sapienza” e Fincantieri e come unica piccola-media impresa del Friuli Venezia Giulia.Inoltre, grazie a questo progetto, a Sultan è stato riconosciuto il contributo regionale per la realizzazione di apparecchiature progettate per effettuare test sui materiali applicati/utilizzati.",
+
+        "P2TITLE": "Dip Print System Refresh - Nuovo metodo di rigenerazione di superfici trattate con sistema decorativo di trasferimento di stampa ad acqua.",
+        "P2": "<cite>Progetto seguito e realizzato dall'area ricerca e sviluppo Sultan</cite>.<br/><br/> La superficie metallica corrosa, dopo essere stata sottoposta ad un leggero trattamento di tipo meccanico, viene rivestita mediante uso di pennello da due strati di una miscela liquida, il cui elemento principale è un prodotto acrilico trasparente opaco a due componenti <cite>20 Gloss</cite>.Con il seguente risultato:",
+        "P2_UL1": "superficie rigenerata",
+        "P2_UL2": "maggior resistenza all'usura del tempo",
+        "P2_3": "Le prove di invecchiamento sul trattamento “Dip Print System Refresh”, hanno dimostrato l'ottima tenuta del prodotto sia a livello visivo che a livello meccanico.",
+
+        "P3TITLE": "Soffitto a doghe in PVC – ricerca progettuale e realizzazione soffitto a doghe in PVC.",
+        "P3": "<cite>Progetto seguito e realizzato dall'area ricerca e sviluppo Sultan</cite>. L'innovativo prodotto realizzato da Sultan ha le seguenti caratteristiche:",
+        "P3_UL1": "un prodotto dal punto di vista estetico uguale al Teak, grazie alla mescola dei colori, con codice esclusivo Sultan",
+        "P3_UL2": "un prodotto con un'ottima tenuta meccanica e facile da pulire",
+        "P3_UL3": "un prodotto che può essere integrato con appositi sistemi di fissaggio faretti e portelli, costruiti completamente in INOX AISI 316 e verniciati con sistema a forno certificato."
+      },
+
+      "SECURITY": {
+        "D1": "La formazione costante e continua rivolta a dipendenti e collaboratori è uno dei punti di forza di Sultan. L'azienda ha sviluppato un piano sulla sicurezza sul lavoro che in due anni ha portato a zero gli infortuni. Il costante controllo sull’utilizzo dei DPI,  sulle procedure di uso delle attrezzature e sul rispetto delle regole di cantiere,  ha portato ad ottimi risultati. Dopo aver effettuato i corsi per RSPP interno e RLS ed  aver completato il ciclo formativo con corsi per addetti antincendio, di primo soccorso e carrellisti, Sultan ha steso un piano di formazione sui rischi aziendali in collaborazione con l’ufficio sicurezza di Fincantieri Monfalcone. Per tutti i dipendenti è prevista la frequentazione di un corso di formazione interno, completato da esame di apprendimento. Per ogni attrezzatura è stata stilata una procedura di utilizzo. Tutti i dipendenti hanno in dotazione una borsa di sicurezza con elmetto, cappello con calotta protettiva, tutore per la zona lombare, auricolari antirumore, scarpe antinfortunistiche e vestiario di riconoscimento.",
+
+        "COURSES": {
+          "TITLE": "CORSI DI FORMAZIONE",
+
+          "C1TITLE": "Tecniche di falegnameria",
+          "C1": "Sultan, in collaborazione con ENFAP FVG, ha effettuato un corso di formazione per l’acquisizione di competenze specifiche relative ad interventi di falegnameria, per l’adattamento e la posa in opera di semilavorati, manufatti e per refitting delle aree di arredamento coinvolte in occasione degli interventi di impiantistica elettrica nel settore della cantieristica navale. Questo corso è uno degli appuntamenti che, insieme ad altri in fase di sviluppo, permette ai dipendenti una polivalenza nel campo della carpenteria navale.",
+
+          "C2TITLE": "Elementi di saldocarpenteria e rafforzamento della cultura della sicurezza per manutentori meccanici",
+          "C2": "Formazione su operazioni di saldatura e taglio e protezione da fumi, polveri, gas e vapori. Anche questo incontro formativo, in collaborazione con ENFAP FVG, è mirato alla crescita delle competenze dei dipendenti nel campo della carpenteria navale.",
+
+          "C3TITLE": "Corso per lavoratori esposti al rischio di caduta dall’alto",
+          "C3": "Conoscenza disposizioni legislative che regolano la gestione dei rischi presso l’azienda, con particolare attenzione alla valutazione del pericolo dato dall’altezza. Principali strumenti di protezione del lavoratore contro le cadute, descrizione dei metodi di posizionamento e gestione delle procedure che permettano un corretto approccio al lavoro in quota.",
+
+          "C4TITLE": "Adempimenti alla formazione obbligatoria",
+          "C4": "(secondo il D.Lgs. n.81/2008 “Testo Unico” sulla salute e sicurezza nei luoghi di lavoro ed il nuovo accordo Stato-Regioni 21/12/2011)",
+
+          "C5TITLE": "Primo soccorso, antincendio, carrellisti, RSPP Aziendale, RLS.",
+          
+          "C6TITLE": "Gestione della qualità secondo normativa ISO 9001:2008."
+        },
 
       },
-      "PROJECT3": {
+
+      "NEWS": {
 
       }
-  },
-  "CONTACTS": {
 
+
+    },
+
+    "CONTACTS": {
+
+    }
   }
 }
+
+  
+ 
+
+
+
+
+
+
