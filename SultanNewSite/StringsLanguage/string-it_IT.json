@@ -125,13 +125,38 @@
         }
       ]
     },
-
     "NEWS": {
 
     }
   },
   "CONTACTS": {
-
+    "TITLE": "Contatti",
+    "POS": "Dove siamo",
+    "WORK": "Lavora con noi",
+    "BANNER": "Vuoi lavorare con noi?",
+    "FORMCONTACT": {
+      "NAME": "Nome",
+      "MAIL": "E-mail",
+      "COMP": "Azienda",
+      "PHONE": "Telefono/Cellulare",
+      "MESS": "Messaggio",
+      "AGREED": "Acconsento al trattamento dei miei dati personali",
+      "PRIVACY": "Informativa sulla privacy",
+      "BTN": "Invia",
+      "REQUIRED": "Campo obbligatorio"
+    },
+    "FORMWORK": {
+      "NAME": "Nome",
+      "LAST": "Cognome",
+      "MAIL": "E-mail",
+      "PHONE": "Telefono/Cellulare",
+      "WORK": "Figura professionale",
+      "MORE": "Informazioni aggiuntive",
+      "CV": "Allega il tuo CV",
+      "OTHER": "Altri allegati",
+      "BTN": "Invia CV",
+      "REQUIRED": "Campo obbligatorio"
+    }
   },
   "PRIVACY": {
     "TITLE": "INFORMATIVA AI SENSI DELL’ART. 13 D.LGS N 196/2003 “CODICE IN MATERIA DI PROTEZIONE DEI DATI PERSONALI”",
