@@ -36,15 +36,16 @@
     }
   },
   "ABOUT-US": {
-    "R&D": {
-
+      "DESCRIPTION1": "",//vedi tu in quanto dividere
+    "PROJECT1": {
+      //title ...
     },
-    "SECURITY": {
+      "PROJECT2": {
 
-    },
-    "NEWS": {
+      },
+      "PROJECT3": {
 
-    }
+      }
   },
   "CONTACTS": {
 
