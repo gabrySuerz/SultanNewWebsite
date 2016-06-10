@@ -77,55 +77,57 @@
           "P4": "",
           "P5": ""
         }
-      ],
-
-      "SECURITY": {
-        "D1": "La formazione costante e continua rivolta a dipendenti e collaboratori è uno dei punti di forza di Sultan. L'azienda ha sviluppato un piano sulla sicurezza sul lavoro che in due anni ha portato a zero gli infortuni. Il costante controllo sull’utilizzo dei DPI,  sulle procedure di uso delle attrezzature e sul rispetto delle regole di cantiere,  ha portato ad ottimi risultati. Dopo aver effettuato i corsi per RSPP interno e RLS ed  aver completato il ciclo formativo con corsi per addetti antincendio, di primo soccorso e carrellisti, Sultan ha steso un piano di formazione sui rischi aziendali in collaborazione con l’ufficio sicurezza di Fincantieri Monfalcone. Per tutti i dipendenti è prevista la frequentazione di un corso di formazione interno, completato da esame di apprendimento. Per ogni attrezzatura è stata stilata una procedura di utilizzo. Tutti i dipendenti hanno in dotazione una borsa di sicurezza con elmetto, cappello con calotta protettiva, tutore per la zona lombare, auricolari antirumore, scarpe antinfortunistiche e vestiario di riconoscimento.",
-        "TITLE-COURSES": "CORSI DI FORMAZIONE",
-        "COURSES": [
-          {
-            "TITLE": "Tecniche di falegnameria",
-            "DESCRIPTION": "Sultan, in collaborazione con ENFAP FVG, ha effettuato un corso di formazione per l’acquisizione di competenze specifiche relative ad interventi di falegnameria, per l’adattamento e la posa in opera di semilavorati, manufatti e per refitting delle aree di arredamento coinvolte in occasione degli interventi di impiantistica elettrica nel settore della cantieristica navale. Questo corso è uno degli appuntamenti che, insieme ad altri in fase di sviluppo, permette ai dipendenti una polivalenza nel campo della carpenteria navale."
-          },
-          {
-            "TITLE": "Elementi di saldocarpenteria e rafforzamento della cultura della sicurezza per manutentori meccanici",
-            "DESCRIPTION": "Formazione su operazioni di saldatura e taglio e protezione da fumi, polveri, gas e vapori. Anche questo incontro formativo, in collaborazione con ENFAP FVG, è mirato alla crescita delle competenze dei dipendenti nel campo della carpenteria navale."
-          },
-          {
-            "TITLE": "Corso per lavoratori esposti al rischio di caduta dall’alto",
-            "DESCRIPTION": "Conoscenza disposizioni legislative che regolano la gestione dei rischi presso l’azienda, con particolare attenzione alla valutazione del pericolo dato dall’altezza. Principali strumenti di protezione del lavoratore contro le cadute, descrizione dei metodi di posizionamento e gestione delle procedure che permettano un corretto approccio al lavoro in quota."
-          },
-          {
-            "TITLE": "Adempimenti alla formazione obbligatoria",
-            "DESCRIPTION": "(secondo il D.Lgs. n.81/2008 “Testo Unico” sulla salute e sicurezza nei luoghi di lavoro ed il nuovo accordo Stato-Regioni 21/12/2011)"
-          },
-          {
-            "TITLE": "Primo soccorso, antincendio, carrellisti, RSPP Aziendale, RLS.",
-            "DESCRIPTION": ""
-          },
-          {
-            "TITLE": "Gestione della qualità secondo normativa ISO 9001:2008.",
-            "DESCRIPTION": ""
-          }
-        ]
-      }
-
-          
-          "C7TITLE": "Corsi di aggiornamento sulla contabilità e gestione aziendale.",
-
-          "C8TITLE": "Inglese tecnico",
-          "C8": "La gestione delle commesse estere, in collaborazione con ENFAP FVG",
-
-          "C9": "Cad 3D (in programma)",
-
-          "C10": "Manutentori superfici decorate / sigillatori (2014)"
+      ]
+    },
+    "SECURITY": {
+      "D1": "La formazione costante e continua rivolta a dipendenti e collaboratori è uno dei punti di forza di Sultan. L'azienda ha sviluppato un piano sulla sicurezza sul lavoro che in due anni ha portato a zero gli infortuni. Il costante controllo sull’utilizzo dei DPI,  sulle procedure di uso delle attrezzature e sul rispetto delle regole di cantiere,  ha portato ad ottimi risultati. Dopo aver effettuato i corsi per RSPP interno e RLS ed  aver completato il ciclo formativo con corsi per addetti antincendio, di primo soccorso e carrellisti, Sultan ha steso un piano di formazione sui rischi aziendali in collaborazione con l’ufficio sicurezza di Fincantieri Monfalcone. Per tutti i dipendenti è prevista la frequentazione di un corso di formazione interno, completato da esame di apprendimento. Per ogni attrezzatura è stata stilata una procedura di utilizzo. Tutti i dipendenti hanno in dotazione una borsa di sicurezza con elmetto, cappello con calotta protettiva, tutore per la zona lombare, auricolari antirumore, scarpe antinfortunistiche e vestiario di riconoscimento.",
+      "TITLE-COURSES": "CORSI DI FORMAZIONE",
+      "COURSES": [
+        {
+          "TITLE": "Tecniche di falegnameria",
+          "DESCRIPTION": "Sultan, in collaborazione con ENFAP FVG, ha effettuato un corso di formazione per l’acquisizione di competenze specifiche relative ad interventi di falegnameria, per l’adattamento e la posa in opera di semilavorati, manufatti e per refitting delle aree di arredamento coinvolte in occasione degli interventi di impiantistica elettrica nel settore della cantieristica navale. Questo corso è uno degli appuntamenti che, insieme ad altri in fase di sviluppo, permette ai dipendenti una polivalenza nel campo della carpenteria navale."
+        },
+        {
+          "TITLE": "Elementi di saldocarpenteria e rafforzamento della cultura della sicurezza per manutentori meccanici",
+          "DESCRIPTION": "Formazione su operazioni di saldatura e taglio e protezione da fumi, polveri, gas e vapori. Anche questo incontro formativo, in collaborazione con ENFAP FVG, è mirato alla crescita delle competenze dei dipendenti nel campo della carpenteria navale."
+        },
+        {
+          "TITLE": "Corso per lavoratori esposti al rischio di caduta dall’alto",
+          "DESCRIPTION": "Conoscenza disposizioni legislative che regolano la gestione dei rischi presso l’azienda, con particolare attenzione alla valutazione del pericolo dato dall’altezza. Principali strumenti di protezione del lavoratore contro le cadute, descrizione dei metodi di posizionamento e gestione delle procedure che permettano un corretto approccio al lavoro in quota."
+        },
+        {
+          "TITLE": "Adempimenti alla formazione obbligatoria",
+          "DESCRIPTION": "(secondo il D.Lgs. n.81/2008 “Testo Unico” sulla salute e sicurezza nei luoghi di lavoro ed il nuovo accordo Stato-Regioni 21/12/2011)"
+        },
+        {
+          "TITLE": "Primo soccorso, antincendio, carrellisti, RSPP Aziendale, RLS.",
+          "DESCRIPTION": ""
+        },
+        {
+          "TITLE": "Gestione della qualità secondo normativa ISO 9001:2008.",
+          "DESCRIPTION": ""
+        },
+        {
+          "TITLE": "Corsi di aggiornamento sulla contabilità e gestione aziendale.",
+          "DESCRIPTION": "(secondo il D.Lgs. n.81/2008 “Testo Unico” sulla salute e sicurezza nei luoghi di lavoro ed il nuovo accordo Stato-Regioni 21/12/2011)"
+        },
+        {
+          "TITLE": "Inglese tecnico",
+          "DESCRIPTION": "La gestione delle commesse estere, in collaborazione con ENFAP FVG"
+        },
+        {
+          "TITLE": "Cad 3D (in programma)",
+          "DESCRIPTION": ""
+        },
+        {
+          "TITLE": "Manutentori superfici decorate / sigillatori (2014)",
+          "DESCRIPTION": ""
         }
+      ]
+    },
 
-      },
+    "NEWS": {
 
-      "NEWS": {
-
-      }
     }
   },
   "CONTACTS": {

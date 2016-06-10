@@ -75,40 +75,54 @@
       ]
     },
     "SECURITY": {
-      
-        "D1": "One of the strengths of Sultan  is the constant and continuous training of employees. The company has developed a safety plan at work  that in two years has reduced injuries to zero. The constant control over the use of PPE, procedures of use and compliance with the shipyard rules, has led to excellent results. After the Health & Safety Manager and workers' health and safety representative internal courses, fire fighting courses, first aid and forklift drivers, Sultan drew up a plan of training on the business risks in collaboration with the Safety Office of Fincantieri Monfalcone. For all employees is expected an internal training course, completed by a learning test. For each tool was compiled a procedure for using. All employees are provided with a safety bag and safety helmet, hat with protective cap, brace for the lower back, ear defenders, safety shoes and special clothing for recognition.",
 
-        "COURSES": {
-          "TITLE": "TRAINING COURSES:",
+      "D1": "One of the strengths of Sultan  is the constant and continuous training of employees. The company has developed a safety plan at work  that in two years has reduced injuries to zero. The constant control over the use of PPE, procedures of use and compliance with the shipyard rules, has led to excellent results. After the Health & Safety Manager and workers' health and safety representative internal courses, fire fighting courses, first aid and forklift drivers, Sultan drew up a plan of training on the business risks in collaboration with the Safety Office of Fincantieri Monfalcone. For all employees is expected an internal training course, completed by a learning test. For each tool was compiled a procedure for using. All employees are provided with a safety bag and safety helmet, hat with protective cap, brace for the lower back, ear defenders, safety shoes and special clothing for recognition.",
 
-          "C1TITLE": "Joinery techniques",
-          "C1": "In collaboration with ENFAP FVG, training course for the acquisition of specific skills related to carpentry work, for the adjustment and installation of semi-manufactured products and refitting of the furnishing areas involved in the interventions on electrical systems in the shipbuilding field. This course, along with others under development, allows employees an important versatility in the naval carpentry field.",
-
-          "C2TITLE": "Elements of welding structural work and safety culture enhancement for mechanical maintenance technicians",
-          "C2": "Welding and cutting formation and protection from fumes, dust, gas and vapors. Also this training meeting, in collaboration with ENFAP FVG, is aimed to increase the employees skills in the naval carpentry field.",
-
-          "C3TITLE": "The risks of working at elevation",
-          "C3": "Knowledge of the laws concerning the management of risks at the company, with particular attention to the risk of falling from a height. Worker main protection tools against falls, description of the methods of positioning and management of the procedures that enable the proper approach of working at elevation.",
-
-          "C4TITLE": "Compliance with mandatory training",
-          "C4": "according to the Legislative Decree N.81/2008,Testo Unico - health and safety in the workplace and the new State-Regions Agreement 21/12/2011",
-
-          "C5TITLE": "First aid, fire fighting, forklift drivers, Health & Safety Manager and workers' health and safety representative.",
-
-          "C6TITLE": "Quality management according to standard ISO 9001:2008.",
-
-          "C7TITLE": "Refresher courses on accounting and business management.",
-
-          "C8TITLE": "Technical English",
-          "C8": "Foreign contracts management, in collaboration with ENFAP FVG",
-
-          "C9": "Cad 3D (planned)",
-
-          "C10": "Decorated surfaces maintainers / sealers (2014)"
+      "TITLE-COURSES": "TRAINING COURSES:",
+      "COURSES": [
+        {
+          "TITLE": "Joinery techniques",
+          "DESCRIPTION": "In collaboration with ENFAP FVG, training course for the acquisition of specific skills related to carpentry work, for the adjustment and installation of semi-manufactured products and refitting of the furnishing areas involved in the interventions on electrical systems in the shipbuilding field. This course, along with others under development, allows employees an important versatility in the naval carpentry field."
+        },
+        {
+          "TITLE": "Elements of welding structural work and safety culture enhancement for mechanical maintenance technicians",
+          "DESCRIPTION": "Welding and cutting formation and protection from fumes, dust, gas and vapors. Also this training meeting, in collaboration with ENFAP FVG, is aimed to increase the employees skills in the naval carpentry field."
+        },
+        {
+          "TITLE": "The risks of working at elevation",
+          "DESCRIPTION": "Knowledge of the laws concerning the management of risks at the company, with particular attention to the risk of falling from a height. Worker main protection tools against falls, description of the methods of positioning and management of the procedures that enable the proper approach of working at elevation."
+        },
+        {
+          "TITLE": "Compliance with mandatory training",
+          "DESCRIPTION": "according to the Legislative Decree N.81/2008,Testo Unico - health and safety in the workplace and the new State-Regions Agreement 21/12/2011"
+        },
+        {
+          "TITLE": "First aid, fire fighting, forklift drivers, Health & Safety Manager and workers' health and safety representative.",
+          "DESCRIPTION": ""
+        },
+        {
+          "TITLE": "Quality management according to standard ISO 9001:2008.",
+          "DESCRIPTION": ""
+        },
+        {
+          "TITLE": "Refresher courses on accounting and business management.",
+          "DESCRIPTION": ""
+        },
+        {
+          "TITLE": "Technical English",
+          "DESCRIPTION": "Foreign contracts management, in collaboration with ENFAP FVG"
+        },
+        {
+          "TITLE": "Cad 3D (planned)",
+          "DESCRIPTION": ""
+        },
+        {
+          "TITLE": "Decorated surfaces maintainers / sealers (2014)",
+          "DESCRIPTION": ""
         }
-       }
-      },
-      "NEWS": {
+      ]
+    },
+    "NEWS": {
 
     }
   },
