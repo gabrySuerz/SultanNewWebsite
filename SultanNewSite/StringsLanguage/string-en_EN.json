@@ -71,5 +71,58 @@
     },
   "CONTACTS": {
 
-  }
+  },
+  "PRIVACY": {
+    "TITLE": "INFORMATION ACCORDING TO THE LAW DECREE 196/2003 “RULES FOR THE SAFEGUARD OF PERSONAL DATA”",
+    "STARTCODE": "Pursuant to art. 13 of Leg.Decr. no.196/2003, therefore, we communicate the following information:",
+    "LISTCODE": {
+      "1": "In compliance with the above-mentioned law, your data will be used respecting the principles of correctness, legality and transparency, safeguarding your privacy and your rights.",
+      "2": "The processing of such personal data will be finalized to comply with legal obligations, contractual or resulting from assignment conferred by the person concerned.",
+      "3": "The treatment can be carried out with the aid of electronic instruments with appropriate procedures to ensure the security and confidentiality of the data.",
+      "4": "Your data is necessary because without it we cannot provide any information. Refusal to communicate your data will therefore make it impossible to fulfill the request.",
+      "5": "Your data will be communicated exclusively to the offices assigned to process your request. No other use will be made of your data.",
+      "6": "The organization in charge of handling your data is Sultan srl based in Via Pedret, 18 - 34076 Romans d’Isonzo (GO) Tel./Fax +39 0481 950333.",
+      "7": "At any time, you may exercise your rights towards the organization in charge of handling your data, pursuant to art. 7 of Leg.Decr. 196/2003, which for your convenience we print in full here below:"
+    },
+    "ARTHEADER": "Art.7 Legislative Decree no.196/2003",
+    "STARTPERSONAL": "RIGHT OF ACCESS TO PERSONAL DATA AND OTHER RIGHTS",
+    "LISTPERSONAL": {
+      "1": "The interested party has the right to obtain confirmation of the existence of personal data concerning him or her, even if not yet recorded, and their communication in an intelligible form.",
+      "2": {
+        "TITLE": "The interested party has the right to be informed:",
+        "SUB": {
+          "A": "of the origin of the personal data;",
+          "B": "of the purpose and manner of their use;",
+          "C": "of the logic applied to handling with electronic means;",
+          "D": "of the identity of the organization and person responsible for handling personal data pursuant to article 5, clause 2;",
+          "E": "of the persons or categories of persons to whom the personal data may be communicated or who may come into possession of them as designated agents in the territory of the country, their management or employees."
+        }
+      },
+      "3": {
+        "TITLE": "The interested party has the right to obtain:",
+        "SUB": {
+          "A": "updates, correction or, when interested, completion of the data;",
+          "B": "deletion, their transformation into anonymous form or blocking of data handled in violation of the law, including any not essential for the purpose for which they were given or subsequently used;",
+          "C": "confirmation that the operations described above have been brought to the attention, also as regards their content, of those to whom the data have been communicated or given, unless compliance with this rule is found to be impossible or would necessitate the use of means clearly disproportionate to the right safeguarded."
+        }
+      },
+      "4": {
+        "TITLE": "The interested party may refuse, wholly or in part:",
+        "SUB": {
+          "A": "for legitimate reasons to allow use of personal data, even if pertinent to the purpose for which they were collected;",
+          "B": "to allow the use of personal data for the purpose of distributing advertising material or direct sales or for market surveys or trade communications."
+        }
+      }
+    },
+    "STARTTREATMENT": "CONSENT TO THE PROCESSING OF PERSONAL DATA",
+    "CONTENTTREATMENT": "The undersigned, taken note of the above, gives his consent to the processing of personal data, including sensitive data, in the manner and for the purposes described above."
+  },
+  "FOOTER": "The English version of the Italian law Leg.Decr. no.196/2003 is reported here only with a descriptive purpose. For any legal aspect, the official text is the Italian one."
 }
+
+
+
+
+
+
+
