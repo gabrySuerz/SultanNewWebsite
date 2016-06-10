@@ -29,11 +29,20 @@
       }
     },
     "CERTIFICATION": {
-      "ISO-9001": "Sultan has certified its quality system in reference to the standard <strong>UNI EN ISO 9001:2008</strong>: <blockquote><cite>Design and production of carpentry products; assistance and marketing of components and accessories supplied on board ship.</cite></blockquote><footer> with the recognition of <mark>RINA Services</mark>  July 2011</footer>"
+      "ISO-9001": "Sultan has certified its quality system in reference to the standard <strong>UNI EN ISO 9001:2008</strong>: <blockquote><cite>Design and production of carpentry products; assistance and marketing of components and accessories supplied on board ship.</cite></blockquote><footer> with the recognition of <mark>RINA Services</mark>  July 2011</footer>",
+      "CERTIFICATION-IMAGE": ""
     }
   },
   "ABOUT-US": {
+    "R&D": {
 
+    },
+    "SECURITY": {
+
+    },
+    "NEWS": {
+
+    }
   },
   "CONTACTS": {
 
