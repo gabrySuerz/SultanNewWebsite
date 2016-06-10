@@ -63,7 +63,8 @@
         "P3_UL1": "un prodotto dal punto di vista estetico uguale al Teak, grazie alla mescola dei colori, con codice esclusivo Sultan",
         "P3_UL2": "un prodotto con un'ottima tenuta meccanica e facile da pulire",
         "P3_UL3": "un prodotto che può essere integrato con appositi sistemi di fissaggio faretti e portelli, costruiti completamente in INOX AISI 316 e verniciati con sistema a forno certificato."
-      },
+      }
+    },
 
       "SECURITY": {
         "D1": "La formazione costante e continua rivolta a dipendenti e collaboratori è uno dei punti di forza di Sultan. L'azienda ha sviluppato un piano sulla sicurezza sul lavoro che in due anni ha portato a zero gli infortuni. Il costante controllo sull’utilizzo dei DPI,  sulle procedure di uso delle attrezzature e sul rispetto delle regole di cantiere,  ha portato ad ottimi risultati. Dopo aver effettuato i corsi per RSPP interno e RLS ed  aver completato il ciclo formativo con corsi per addetti antincendio, di primo soccorso e carrellisti, Sultan ha steso un piano di formazione sui rischi aziendali in collaborazione con l’ufficio sicurezza di Fincantieri Monfalcone. Per tutti i dipendenti è prevista la frequentazione di un corso di formazione interno, completato da esame di apprendimento. Per ogni attrezzatura è stata stilata una procedura di utilizzo. Tutti i dipendenti hanno in dotazione una borsa di sicurezza con elmetto, cappello con calotta protettiva, tutore per la zona lombare, auricolari antirumore, scarpe antinfortunistiche e vestiario di riconoscimento.",
@@ -81,25 +82,28 @@
           "C3": "Conoscenza disposizioni legislative che regolano la gestione dei rischi presso l’azienda, con particolare attenzione alla valutazione del pericolo dato dall’altezza. Principali strumenti di protezione del lavoratore contro le cadute, descrizione dei metodi di posizionamento e gestione delle procedure che permettano un corretto approccio al lavoro in quota.",
 
           "C4TITLE": "Adempimenti alla formazione obbligatoria",
-          "C4": "(secondo il D.Lgs. n.81/2008 “Testo Unico” sulla salute e sicurezza nei luoghi di lavoro ed il nuovo accordo Stato-Regioni 21/12/2011)",
+          "C4": "secondo il D.Lgs. n.81/2008 “Testo Unico” sulla salute e sicurezza nei luoghi di lavoro ed il nuovo accordo Stato-Regioni 21/12/2011",
 
           "C5TITLE": "Primo soccorso, antincendio, carrellisti, RSPP Aziendale, RLS.",
-          
-          "C6TITLE": "Gestione della qualità secondo normativa ISO 9001:2008."
-        },
+
+          "C6TITLE": "Gestione della qualità secondo normativa ISO 9001:2008.",
+
+          "C7TITLE": "Corsi di aggiornamento sulla contabilità e gestione aziendale.",
+
+          "C8TITLE": "Inglese tecnico",
+          "C8": "La gestione delle commesse estere, in collaborazione con ENFAP FVG",
+
+          "C9": "Cad 3D (in programma)",
+
+          "C10": "Manutentori superfici decorate / sigillatori (2014)"
+        }
 
       },
 
       "NEWS": {
 
       }
-    },
-    "SECURITY": {
-
-    },
-    "NEWS": {
-
-    }
+   
   },
   "CONTACTS": {
 
