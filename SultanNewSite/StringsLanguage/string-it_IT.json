@@ -1,6 +1,4 @@
-﻿//Json language array for Italian
-
-{
+﻿{
   "TOPBAR": {
     "IMAGE": "/Images/icon-en.png",
     "ABOUT-US": "Scopri di pi&ugrave; di noi",
@@ -36,18 +34,72 @@
     }
   },
   "ABOUT-US": {
-      "DESCRIPTION1": "",//vedi tu in quanto dividere
-    "PROJECT1": {
-      //title ...
-    },
+    "R&D": {
+      "DESCRIPTION1": "",
+      "PROJECT1": {
+
+      },
       "PROJECT2": {
 
       },
       "PROJECT3": {
 
       }
+    },
+    "SECURITY": {
+
+    },
+    "NEWS": {
+
+    }
   },
   "CONTACTS": {
 
-  }
+  },
+  "PRIVACY": {
+    "TITLE": "INFORMATIVA AI SENSI DELL’ART. 13 D.LGS N 196/2003 “CODICE IN MATERIA DI PROTEZIONE DEI DATI PERSONALI”",
+    "STARTCODE": "Ai sensi dell’articolo 13 del D.Lgs n° 196/2003, Le forniamo le seguenti informazioni:",
+    "LISTCODE": {
+      "1": "I dati personali da Lei/Voi forniti o acquisiti nell’ambito della nostra attività saranno oggetto del trattamento improntato ai principi di correttezza, liceità, trasparenza e di tutela della Sua/Vostra riservatezza e dei Suoi/Vostri diritti.",
+      "2": "Il trattamento di tali dati personali sarà finalizzato agli adempimenti degli obblighi di legge, contrattuali o derivanti da incarico conferito dall’interessato.",
+      "3": "Il trattamento può essere effettuato anche con l’ausilio di strumenti elettronici con modalità idonee a garantire la sicurezza e riservatezza dei dati.",
+      "4": "Il conferimento dei dati è facoltativo, tuttavia l’eventuale rifiuto a fornirci, in tutto o in parte, i Suoi/Vostri dati personali o l’autorizzazione al trattamento potrebbe comportare la mancata o parziale esecuzione del contratto ovvero la mancata esecuzione dell’incarico.",
+      "5": "I dati potranno essere comunicati, esclusivamente per le finalità sopra indicate, a soggetti determinabili tra i quali consulenti legali o fiscali, Istituti bancari e ditte di trasporto, al fine di adempiere agli obblighi di cui sopra. Altri soggetti potrebbero venire a conoscenza dei dati in qualità di responsabili o incaricati del trattamento. In nessun caso i dati  personali trattati saranno oggetto di diffusione.",
+      "6": "Il titolare del trattamento dei dati personali è Sultan srl con sede in Via Pedret, 18 – 34076 Romans d’Isonzo (GO) Tel./Fax +39 0481 950333.",
+      "7": "Al titolare del trattamento o al responsabile Lei/Voi potrà rivolgersi per far valere i Suoi diritti, così come previsto dall’art. 7 D.Lgs n° 196/2003, che per Sua/Vostra comodità riproduciamo integralmente:",
+      "FOOTER": "Art.7 del D.Lgs. 30/03/2003 n. 196"
+    },
+    "STARTPERSONAL": "DIRITTO DI ACCESSO AI  DATI PERSONALI ED ALTRI DIRITTI",
+    "LISTPERSONAL": {
+      "1": "L'interessato ha diritto di ottenere la conferma dell'esistenza o meno di dati personali che lo riguardano, anche se non ancora registrati, e la loro comunicazione in forma intelligibile.",
+      "2": {
+        "TITLE": "L'interessato ha diritto di ottenere l’indicazione:",
+        "SUB": {
+          "A": "dell'origine dei dati personali;",
+          "B": "delle finalità e modalità del trattamento;",
+          "C": "della logica applicata in caso di trattamento effettuato con l'ausilio di strumenti elettronici;",
+          "D": "degli estremi identificativi del titolare, dei responsabili e del rappresentante designato ai sensi dell'articolo 5, comma 2;",
+          "E": "dei soggetti o delle categorie di soggetti ai quali i dati personali possono essere comunicati o che possono venirne a conoscenza in qualità di rappresentante designato nel territorio dello Stato, di responsabili o incaricati."
+        }
+      },
+      "3": {
+        "TITLE": "L'interessato ha diritto di ottenere:",
+        "SUB": {
+          "A": "l'aggiornamento, la rettificazione ovvero, quando vi ha interesse, l'integrazione dei dati;",
+          "B": "la cancellazione, la trasformazione in forma anonima o il blocco dei dati trattati in violazione di legge, compresi quelli di cui non è necessaria la conservazione in relazione agli scopi per i quali i dati sono stati raccolti o successivamente trattati;",
+          "C": "l'attestazione che le operazioni di cui alle lettere a) e b) sono state portate a conoscenza, anche per quanto riguarda il loro contenuto, di coloro ai quali i dati sono stati comunicati o diffusi, eccettuato il caso in cui tale adempimento si rivela impossibile o comporta un impiego di mezzi manifestamente sproporzionato rispetto al diritto tutelato."
+        }
+      },
+      "4": {
+        "TITLE": "L'interessato ha diritto di opporsi, in tutto o in parte:",
+        "SUB": {
+          "A": "per motivi legittimi al trattamento dei dati personali che lo riguardano, ancorché pertinenti allo scopo della raccolta;",
+          "B": "al trattamento di dati personali che lo riguardano a fini di invio di materiale pubblicitario o di vendita diretta o per il compimento di ricerche di mercato o di comunicazione commerciale."
+        }
+      }
+    },
+    "STARTTREATMENT": "CONSENSO AL TRATTAMENTO DEI DATI PERSONALI",
+    "CONTENTTREATMENT": "Il sottoscritto Interessato, preso atto di quanto sopra, esprime il proprio consenso al trattamento dei dati personali forniti, compresi i dati di natura sensibile, con le modalità e per le finalità sopra descritte."
+  },
+  "FOOTER": ""
 }
