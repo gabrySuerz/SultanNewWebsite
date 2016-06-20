@@ -1,6 +1,6 @@
 //controller.js keeps every controller that the site needs
 
-site.controller('mainCtrl', function ($scope, $translate,$rootScope) {
+site.controller('mainCtrl', function ($scope, $translate, $rootScope) {
     $scope.toggleLang = function () {
         $translate.use() === 'it_IT' ? $translate.use('en_EN') : $translate.use('it_IT')
     }
@@ -19,4 +19,19 @@ site.controller('homeCtrl', function ($translate) {
 
     //$translate.use('it-IT')
 
+})
+
+site.controller('worksCtrl', function ($translate, stringsJson, $rootscope) {
+    var boatsIT, boatsEN
+    stringsJson.get('../../phpPages/getBoats.php')
+        .success(function (response) {
+            boatsIT = response.it
+            boatsEN = response.en
+        }).error(function (response) {
+
+        })
+    $translate.use() === 'it_IT' ? $scope.boats = boatsIT : $scope.boats = boatsEN
+    $rootScope.$on('$translateChangeSuccess', function () {
+        $translate.use() === 'it_IT' ? $scope.boats = boatsIT : $scope.boats = boatsEN
+    });
 })

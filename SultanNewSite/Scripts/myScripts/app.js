@@ -13,25 +13,30 @@ site.config(function ($stateProvider, $urlRouterProvider) {
             templateUrl: 'htmlPages/home.html',
             controller: 'homeCtrl'
         })
-        .state('prodotti', {
-            url: '/prodotti',
-            templateUrl: 'htmlPages/prodotti.html',
-            controller: 'productsController'
+        .state('products', {
+            url: '/products',
+            templateUrl: 'htmlPages/products.html',
+            controller: 'productsCtrl'
         })
-        .state('scopri', {
-            url: '/scopri',
-            templateUrl: 'htmlPages/scopri.html',
+        .state('about-us', {
+            url: '/about-us',
+            templateUrl: 'htmlPages/about-us.html',
             controller: 'showMoreController'
+        })
+        .state('works', {
+            url: '/ourWorks',
+            templateUrl: 'htmlPages/works.html',
+            controller: 'worksCtrl'
         })
         .state('news', {
             url: '/news',
             templateUrl: 'htmlPages/news.html',
-            controller: 'newsController'
+            controller: 'newsCtrl'
         })
-        .state('contatti', {
-            url: '/contatti',
-            templateUrl: 'htmlPages/contatti.html',
-            controller: 'contactsController'
+        .state('contacts', {
+            url: '/contacts',
+            templateUrl: 'htmlPages/contacts.html',
+            controller: 'contactsCtrl'
         })
 })
 

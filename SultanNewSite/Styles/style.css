@@ -13,22 +13,20 @@
 }
 
 #changeLanguage {
-    width: 100%;
-    height: auto;
+    width: 70px;
+    height: 47px;
     background-repeat: no-repeat;
 }
 
-.carousel {
-    margin-bottom: 60px;
-}
-
-    .carousel .container {
-        position: relative;
-        z-index: 9;
-    }
-
 @media screen and (min-height: 800px) and (min-width: 1200px) {
     .carousel {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        height: 500px;
+        vertical-align: central;
+        max-width: none;
         margin-bottom: 60px;
     }
 
@@ -51,19 +49,9 @@
         height: 500px;
     }
 
-    .carousel {
-        position: absolute;
-        top: 0;
-        left: 0;
-        min-width: 100%;
-        height: 500px;
-        vertical-align: central;
-        max-width: none;
-    }
-
     .carousel-caption {
         position: absolute;
-        bottom: 0%;
+        bottom: 0;
         width: 40%;
         height: 100%;
         left: 10%;
@@ -89,17 +77,25 @@
 
 
 a {
-    color: #0069AA!important;
+    color: #0069AA !important;
 }
 
     a:visited {
-        color: #0069AA!important;
+        color: #0069AA !important;
     }
 
 .navbar-nav li a {
     line-height: 32px;
 }
 
-#azienda{
-    font-size:20pt;
+#azienda {
+    font-size: 20pt;
 }
+
+.line{
+    line-height:32px;
+}
+ .button{
+     margin-top:5px;
+     margin-left:5px;
+ }

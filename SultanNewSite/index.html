@@ -23,15 +23,16 @@
                             <span class="icon-bar"></span>
                         </button>
                         <a class="navbar-brand" ui-sref="home"><img src="Images/favicon-sultan.png" /></a>
+                        <a class="navbar-brand line" ui-sref="home"><span id="azienda">SULTAN</span></a>
                     </div>
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li><a ui-sref="home"><span id="azienda">SULTAN</span></a></li>
-                            <li ui-sref-active="active"><a ui-sref="scopri"><span translate="TOPBAR.ABOUT-US"></span></a></li>
-                            <li ui-sref-active="active"><a ui-sref="contatti" translate="TOPBAR.CONTACT-US"></a></li>
+                            <li ui-sref-active="active"><a ui-sref="about-us"><span translate="TOPBAR.ABOUT-US"></span></a></li>
+                            <li ui-sref-active="active"><a ui-sref="works" translate="TOPBAR.WORKS"></a></li>
+                            <li ui-sref-active="active"><a ui-sref="contacts" translate="TOPBAR.CONTACT-US"></a></li>
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
-                            <li><button id="changeLanguage" type="button" class="btn btn-toolbar" ng-style="{'background-image': 'url(' + image + ')'}" ng-click="toggleLang()" translate="TOPBAR.LANGUAGE"></button></li>
+                            <li><button id="changeLanguage" type="button" class="button btn" ng-style="{'background-image': 'url(' + image + ')'}" ng-click="toggleLang()"></button></li>
                         </ul>
                     </div>
                 </div>
