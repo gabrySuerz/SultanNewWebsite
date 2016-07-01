@@ -33,7 +33,7 @@ site.controller('worksCtrl', function ($translate, stringsJson, $rootscope) {
     })
 })
 
-site.controller('insertCtrl', function () {
+site.controller('insertCtrl', function (stringsJson, $scope, arrayBoats) {
     stringsJson.get()
         .success(function (response) {
             boatsIT = response.it
@@ -41,36 +41,29 @@ site.controller('insertCtrl', function () {
         }).error(function (response) {
 
         })
-    
-})
 
-function data() {
-    var temp = [
-        { id: 1, name: 'prodotto 1', category: 'A', price: 123.4, description: 'prodotto A' },
-        { id: 2, name: 'prodotto 2', category: 'B', price: 123.4, description: 'prodott B' }
-    ];
+    $scope.insert = function () {
+        var newBoat = {
+            name: $scope.nameIT,
+            description: $scope.descIT,
 
-    var result = new Object();
-
-    result.getAll = function () {
-        return temp;
-    };
-
-    result.getById = function (id) {
-        for (var i = 0; i < temp.length; i++) {
-            var x = temp[i];
-            if (x.id == id)
-                return x;
         }
+        $scope.upload($scope.file);
+        arrayBoats.insertData(boatsIT, newBoat)
+        arrayBoats.insertData(boatsEN, newBoat)
+    }
 
-        return null;
+    $scope.upload = function (file) {
+        Upload.upload({
+            url: 'Images/Boats',
+            data: { file: file }
+        }).then(function (resp) {
+            console.log('Success ' + resp.config.data.file.name + 'uploaded. Response: ' + resp.data);
+        }, function (resp) {
+            console.log('Error status: ' + resp.status);
+        }, function (evt) {
+            var progressPercentage = parseInt(100.0 * evt.loaded / evt.total);
+            console.log('progress: ' + progressPercentage + '% ' + evt.config.data.file.name);
+        });
     };
-
-    return result;
-};
-
-var dataAccess = data();
-
-var products = dataAccess.getAll();
-
-var product = dataAccess.getById(1);
+})

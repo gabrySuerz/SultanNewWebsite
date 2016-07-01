@@ -21,16 +21,18 @@
 (function () {
     'use strict';
 
-    site.factory('insertBoats', factory);
+    site.factory('arrayBoats', factory);
 
     function factory() {
         var service = {
-            setData: insertBoats(type, lang, obj)
+            insertData: insertBoats(boatsArray, obj),
+            updateData: updateBoats(boatsArray, obj),
+            deleteData: deleteBoats(boatsArray, obj)
         };
 
         return service;
 
-        function insertBoat(obj) {
+        function insertBoat(boatsArray, obj) {
             if (obj != null) {
                 if (boatsArray.length == 0)
                     obj.id = 1;
@@ -40,7 +42,7 @@
             }
         }
 
-        function updateBoat(obj) {
+        function updateBoat(boatsArray, obj) {
             if (obj != null) {
                 for (var i = 0; i < boatsArray.length; i++) {
                     var x = boatsArray[i];
@@ -52,7 +54,7 @@
             }
         }
 
-        function deleteBoat(obj) {
+        function deleteBoat(boatsArray, obj) {
             for (var i = 0; i < boatsArray.length; i++) {
                 var x = boatsArray[i];
                 if (x.id == id) {
