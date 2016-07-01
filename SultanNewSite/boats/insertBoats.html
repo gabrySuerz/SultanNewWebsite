@@ -3,14 +3,65 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Inserire nuove navi</title>
+    <meta charset="utf-8" />
+
     <link rel="stylesheet" type="text/css" href="../Content/bootstrap.min.css" />
+    <style type="text/css">
+        body {
+            padding-top: 60px;
+        }
+
+        .line {
+            line-height: 32px;
+        }
+
+        #azienda {
+            font-size: 20pt;
+        }
+
+        a {
+            color: #0069AA !important;
+        }
+
+            a:visited {
+                color: #0069AA !important;
+            }
+    </style>
 </head>
-<body>
-    <form class="row">
-        <div class="col-md-offset-2 col-md-8">
-            <label for="boatName">Nome della nave: </label>
-            <input type="text" id="boatName" placeholder="Scrivi il nome della nave" />
+<body ng-app="sultanSite">
+    <div class="container-fluid" ng-controller="insertCtrl">
+        <div class="row">
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="../index.html"><img src="../Images/favicon-sultan.png" /></a>
+                        <a class="navbar-brand line"  href="../index.html"><span id="azienda">SULTAN</span></a>
+                    </div>
+                </div>
+            </nav>
         </div>
-    </form>
+        <form class="row">
+            <div class="col-md-offset-2 col-md-8">
+                <div class="form-group">
+                    <label for="boatName">Nome della nave</label>
+                    <input type="email" class="form-control" id="boatName" placeholder="Nome della nave">
+                </div>
+                <div class="form-group">
+                    <label for="boatDescription">Descrizione</label>
+                    <textarea rows="10" class="form-control" id="boatDescription" placeholder="Scrivi qui la descrizione"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="imagesInputFile">Foto della nave</label>
+                    <input type="file" id="imagesInputFile" accept=".jpg, .png, .jpeg, .gif, .bmp, .tif, .tiff|images/*">
+                    <p class="help-block">E' permesso caricare solo immagini.</p>
+                </div>
+                <div class="form-group">
+                    <label for="boatWorks">I lavori sulla nave</label>
+                    <input type="text" class="form-control" id="boatWorks" placeholder="Scrivi i lavori">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
