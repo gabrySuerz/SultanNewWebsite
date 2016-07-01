@@ -1,5 +1,32 @@
-﻿<div class="row">
-    <div class="col-xs-12 col-md-8 col-md-offset-2">
-        
+﻿<div class='containerParallax' ng-init="myPattern='Images/princess.jpg'">
+    <div class='box1'>
+        <div ng-parallax pattern="myPattern" speed="5">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 sultanColor">
+                    <div class="row">
+                        <h1 translate="HOME.TITLE_HOME"></h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 space">
+                            <p translate="HOME.DESCRIPTION.D1"></p>
+                        </div>
+                        <div class="col-md-6 imagesCarouselMy">
+                            <!--<div class='containerParallax' ng-init="myPattern='Images/parallax²_1.jpg'; myPattern2='Images/parallax²_2.jpg'; myPattern3='Images/parallax²_3.jpg'">
+                                <div class='box'>
+                                </div>-->
+                            <div ng-parallax pattern="myPattern" speed="5">
+                            </div>
+                        <div class="col-md-3 space">
+                            <p translate="HOME.DESCRIPTION.D2"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class='containerParallax' ng-init="myPattern='Images/fascination.jpg'">
+    <div class='box1'>
+        <div ng-parallax pattern="myPattern" speed="0"></div>
     </div>
 </div>

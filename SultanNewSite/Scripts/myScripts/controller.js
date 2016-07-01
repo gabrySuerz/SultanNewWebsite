@@ -14,16 +14,13 @@ site.controller('mainCtrl', function ($scope, $translate, $rootScope) {
     });
 })
 
-site.controller('homeCtrl', function ($translate) {
-
-
-    //$translate.use('it-IT')
+site.controller('homeCtrl', function () {
 
 })
 
 site.controller('worksCtrl', function ($translate, stringsJson, $rootscope) {
     var boatsIT, boatsEN
-    stringsJson.get('../../phpPages/getBoats.php')
+    stringsJson.get()
         .success(function (response) {
             boatsIT = response.it
             boatsEN = response.en
