@@ -33,29 +33,43 @@ site.controller('worksCtrl', function ($translate, stringsJson, $rootscope) {
     })
 })
 
-site.controller('insertCtrl', function (stringsJson, $scope, arrayBoats) {
-    stringsJson.get()
+site2.controller('insertCtrl', function ($scope, arrayBoats, Upload) {
+    /*stringsJson.get()
         .success(function (response) {
             boatsIT = response.it
             boatsEN = response.en
         }).error(function (response) {
 
         })
-
+        */
+    $scope.skabadubuda = ''
+    var boatsIT = []
+    var boatsEN = []
     $scope.insert = function () {
-        var newBoat = {
+        var newBoatIT = {
             name: $scope.nameIT,
             description: $scope.descIT,
-
+            scope: $scope.scopeIT,
+            picture: '../Images/Boats/' + $scope.skabadubuda.name
         }
-        $scope.upload($scope.file);
-        arrayBoats.insertData(boatsIT, newBoat)
-        arrayBoats.insertData(boatsEN, newBoat)
+        var newBoatEN = {
+            name: $scope.nameEN,
+            description: $scope.descEN,
+            scope: $scope.scopeEN,
+            picture: '../Images/Boats/' + $scope.skabadubuda.name
+        }
+        $scope.upload($scope.skabadubuda);
+        arrayBoats.insertData(boatsIT, newBoatIT)
+        arrayBoats.insertData(boatsEN, newBoatEN)
+        console.log($scope.skabadubuda)
     }
 
     $scope.upload = function (file) {
         Upload.upload({
-            url: 'Images/Boats',
+            url: '../Images/Boats',
+            headers: {
+                'Content-Type': file.type
+            },
             data: { file: file }
         }).then(function (resp) {
             console.log('Success ' + resp.config.data.file.name + 'uploaded. Response: ' + resp.data);

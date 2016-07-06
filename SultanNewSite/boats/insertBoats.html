@@ -28,41 +28,72 @@
             }
     </style>
 </head>
-<body ng-app="sultanSite">
+<body ng-app="insertSite">
     <div class="container-fluid" ng-controller="insertCtrl">
         <div class="row">
             <nav class="navbar navbar-default navbar-fixed-top">
                 <div class="container-fluid">
                     <div class="navbar-header">
                         <a class="navbar-brand" href="../index.html"><img src="../Images/favicon-sultan.png" /></a>
-                        <a class="navbar-brand line"  href="../index.html"><span id="azienda">SULTAN</span></a>
+                        <a class="navbar-brand line" href="../index.html"><span id="azienda">SULTAN</span></a>
                     </div>
                 </div>
             </nav>
         </div>
-        <form class="row">
+        <form class="row" name="insertForm" novalidate>
             <div class="col-md-offset-2 col-md-8">
-                <div class="form-group">
-                    <label for="boatName">Nome della nave</label>
-                    <input type="email" class="form-control" id="boatName" placeholder="Nome della nave">
+                <div class="row">
+                    <div class="form-group col-md-6" ng-class="{ 'has-error': insertForm.nameIT.$touched && insertForm.nameIT.$invalid, 'has-success has-feedback': insertForm.nameIT.$valid }" >
+                        <label class="control-label">Nome della nave</label>
+                        <input type="text" class="form-control" name="nameIT" ng-model="nameIT" placeholder="Nome della nave" ng-minlength="8" required>
+                        <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label>Name of the boat</label>
+                        <input type="text" class="form-control" ng-model="nameEN" placeholder="Name of the boat">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label>Descrizione</label>
+                        <textarea rows="10" class="form-control" ng-model="descIT" placeholder="Scrivi qui la descrizione"></textarea>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label>Description</label>
+                        <textarea rows="10" class="form-control" ng-model="descEN" placeholder="Write here the description"></textarea>
+                    </div>
                 </div>
                 <div class="form-group">
-                    <label for="boatDescription">Descrizione</label>
-                    <textarea rows="10" class="form-control" id="boatDescription" placeholder="Scrivi qui la descrizione"></textarea>
+                    <label>Foto della nave / Picture of the boat</label>
+                    <br />
+                    <div class="button btn btn-primary" ngf-select ng-model="skabadubuda" name="file" ngf-pattern="'image/*'"
+                         ngf-accept="'image/*'" ngf-max-size="20MB" ngf-min-height="100"
+                         ngf-resize="{width: 100, height: 100}">Seleziona</div>
+                    <p class="help-block">{{skabadubuda.name}}</p>
                 </div>
-                <div class="form-group">
-                    <label for="imagesInputFile">Foto della nave</label>
-                    <input type="file" id="imagesInputFile" accept=".jpg, .png, .jpeg, .gif, .bmp, .tif, .tiff|images/*">
-                    <p class="help-block">E' permesso caricare solo immagini.</p>
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label>Opere eseguite sulla nave</label>
+                        <input type="text" class="form-control" ng-model="scopeIT" placeholder="Scrivi le opere eseguite">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label>Works on the boat</label>
+                        <input type="text" class="form-control" ng-model="scopeEN" placeholder="Write the works">
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="boatWorks">I lavori sulla nave</label>
-                    <input type="text" class="form-control" id="boatWorks" placeholder="Scrivi i lavori">
-                </div>
-                <button type="submit" class="btn btn-primary" ng-click="insert()">Submit</button>
+                <br />
+                <button type="submit" class="btn btn-primary col-md-offset-4 col-md-4" ng-click="insert()" ng-disabled="insertForm.$invalid">Submit</button>
             </div>
         </form>
     </div>
-    <script src="ng-file-upload.min.js"></script>
+
+
+    <script type="text/javascript" src="../Scripts/jquery-2.2.3.min.js"></script>
+    <script type="text/javascript" src="../Scripts/angular.min.js"></script>
+    <script type="text/javascript" src="../Scripts/ng-file-upload-all.min.js"></script>
+
+    <script type="text/javascript" src="../Scripts/myScripts/app.js"></script>
+    <script type="text/javascript" src="../Scripts/myScripts/factory.js"></script>
+    <script type="text/javascript" src="../Scripts/myScripts/controller.js"></script>
 </body>
 </html>

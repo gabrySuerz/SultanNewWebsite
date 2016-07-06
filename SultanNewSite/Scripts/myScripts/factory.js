@@ -21,13 +21,13 @@
 (function () {
     'use strict';
 
-    site.factory('arrayBoats', factory);
+    site2.factory('arrayBoats', factory);
 
     function factory() {
         var service = {
-            insertData: insertBoats(boatsArray, obj),
-            updateData: updateBoats(boatsArray, obj),
-            deleteData: deleteBoats(boatsArray, obj)
+            insertData: insertBoat,
+            updateData: updateBoat,
+            deleteData: deleteBoat
         };
 
         return service;
