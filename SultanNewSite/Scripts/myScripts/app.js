@@ -1,6 +1,6 @@
 ﻿//app.js keeps the configurations of
 
-var site = angular.module('sultanSite', ['ui.router', 'pascalprecht.translate', 'ngParallax'])
+var site = angular.module('sultanSite', ['ui.router', 'pascalprecht.translate', 'ngParallax', 'ngFileUpload'])
 
 //configuring the router of the site
 site.config(function ($stateProvider, $urlRouterProvider) {

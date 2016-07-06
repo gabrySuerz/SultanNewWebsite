@@ -17,3 +17,51 @@
         function getData(url) { return $http.get(url) }
     }
 })();
+
+(function () {
+    'use strict';
+
+    site.factory('arrayBoats', factory);
+
+    function factory() {
+        var service = {
+            insertData: insertBoats(boatsArray, obj),
+            updateData: updateBoats(boatsArray, obj),
+            deleteData: deleteBoats(boatsArray, obj)
+        };
+
+        return service;
+
+        function insertBoat(boatsArray, obj) {
+            if (obj != null) {
+                if (boatsArray.length == 0)
+                    obj.id = 1;
+                else
+                    obj.id = boatsArray[boatsArray.length - 1].id + 1;
+                boatsArray.push(obj);
+            }
+        }
+
+        function updateBoat(boatsArray, obj) {
+            if (obj != null) {
+                for (var i = 0; i < boatsArray.length; i++) {
+                    var x = boatsArray[i];
+                    if (x.id == obj.id) {
+                        boatsArray[i] = obj;
+                        return;
+                    }
+                }
+            }
+        }
+
+        function deleteBoat(boatsArray, obj) {
+            for (var i = 0; i < boatsArray.length; i++) {
+                var x = boatsArray[i];
+                if (x.id == id) {
+                    boatsArray.splice(i, 1);
+                    return;
+                }
+            }
+        }
+    }
+})();
