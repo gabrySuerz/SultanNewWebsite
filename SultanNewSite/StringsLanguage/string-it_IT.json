@@ -37,12 +37,22 @@
   "ABOUT-US": {
     "R&D": {
       "DESCRIPTION1": "Una delle aree maggiormente sviluppate da Sultan è quella relativa alla ricerca e sviluppo. Studio di, materiali innovativi, e ricerca, di soluzioni, tecnologicamente all'avanguardia sono gli obiettivi che Sultan persegue, anche grazie alla collaborazione con:",
-      "PARTNERS": {
-        "P1": "CATAS Spa è il più grande istituto italiano ed europeo nella certificazione, ricerca e prove nel settore legno-arredo, ma anche un polo di eccellenza per la ricerca e l’analisi nel settore agro-alimentare, industriale e ambientale.",
-        "P2": "UNIVERSITÀ “LA SAPIENZA” DI ROMA - Dipartimento di Ingegneria Meccanica e Aerospaziale.",
-        "P3": "CNR–INSEAN, istituto di Ricerca nel settore dell'ingegneria navale e marittima nell'ambito del Consiglio Nazionale delle Ricerche - Dipartimento Energia e Trasporti.",
-        "P4": "Sultan ha aderito al CLUSTER TECNOLOGICO NAZIONALE <cite>TRASPORTI ITALIA 2020</cite>, che si pone l’obiettivo di creare il collegamento tra le filiere modali di sviluppo dei mezzi e sistemi per la mobilità su gomma, su rotaia, su vie d’acqua e dell’intermodalità, al fine di generare, per la Ricerca e Innovazione in questi Settori,delle linee guida orientate ad approcci di Sistema e mirate al recupero della competitività del <cite>Made in Italy</cite>."
-      },
+      "PARTNERS": [
+        {
+          "DESC": "CATAS Spa è il più grande istituto italiano ed europeo nella certificazione, ricerca e prove nel settore legno-arredo, ma anche un polo di eccellenza per la ricerca e l’analisi nel settore agro-alimentare, industriale e ambientale.",
+        },
+        {
+
+          "DESC": "UNIVERSITÀ “LA SAPIENZA” DI ROMA - Dipartimento di Ingegneria Meccanica e Aerospaziale."
+        },
+        {
+          "DESC": "CNR–INSEAN, istituto di Ricerca nel settore dell'ingegneria navale e marittima nell'ambito del Consiglio Nazionale delle Ricerche - Dipartimento Energia e Trasporti."
+        },
+        {
+          "DESC": "Sultan ha aderito al CLUSTER TECNOLOGICO NAZIONALE <cite>TRASPORTI ITALIA 2020</cite>, che si pone l’obiettivo di creare il collegamento tra le filiere modali di sviluppo dei mezzi e sistemi per la mobilità su gomma, su rotaia, su vie d’acqua e dell’intermodalità, al fine di generare, per la Ricerca e Innovazione in questi Settori,delle linee guida orientate ad approcci di Sistema e mirate al recupero della competitività del <cite>Made in Italy</cite>."
+        }
+      ],
+
       "PROJECTS": [
         {
           "TITLE": "Naumatest – Ricerca progettuale macchina per test combinati sui materiali per allestimento navale",
