@@ -21,7 +21,7 @@ site.config(function ($stateProvider, $urlRouterProvider) {
         .state('about-us', {
             url: '/about-us',
             templateUrl: 'htmlPages/about-us.html',
-            controller: 'showMoreController'
+            controller: 'showMoreCtrl'
         })
         .state('works', {
             url: '/ourWorks',
