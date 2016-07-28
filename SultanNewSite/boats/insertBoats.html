@@ -43,48 +43,99 @@
         <form class="row" name="insertForm" novalidate>
             <div class="col-md-offset-2 col-md-8">
                 <div class="row">
-                    <div class="form-group col-md-6" ng-class="{ 'has-error': insertForm.nameIT.$touched && insertForm.nameIT.$invalid, 'has-success has-feedback': insertForm.nameIT.$valid }" >
-                        <label class="control-label">Nome della nave</label>
-                        <input type="text" class="form-control" name="nameIT" ng-model="nameIT" placeholder="Nome della nave" ng-minlength="8" required>
-                        <span class="glyphicon glyphicon-ok form-control-feedback sr-only"></span>
+                    <div class="form-group col-md-6" ng-class="{ 'has-error has-feedback': insertForm.nameIT.$touched && insertForm.nameIT.$invalid, 'has-success has-feedback': insertForm.nameIT.$valid }">
+                        <label class="control-label" for="nameIT">Nome della nave</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control" name="nameIT" ng-model="nameIT" placeholder="Nome della nave" ng-minlength="8" required>
+                            <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-asterisk"></span>
+                            </span>
+                        </div>
+                        <span class="form-control-feedback glyphicon glyphicon-ok" style="right:55px;" ng-show="insertForm.nameIT.$valid"></span>
+                        <span class="form-control-feedback glyphicon glyphicon-remove" style="right:55px;" ng-show="insertForm.nameIT.$touched && insertForm.nameIT.$invalid"></span>
                     </div>
-                    <div class="form-group col-md-6">
-                        <label>Name of the boat</label>
-                        <input type="text" class="form-control" ng-model="nameEN" placeholder="Name of the boat">
+                    <div class="form-group col-md-6" ng-class="{ 'has-error has-feedback': insertForm.nameEN.$touched && insertForm.nameEN.$invalid, 'has-success has-feedback': insertForm.nameEN.$valid }">
+                        <label class="control-label" for="nameEN">Name of the boat</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control" name="nameEN" ng-model="nameEN" placeholder="Name of the boat" ng-minlength="8" required>
+                            <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-asterisk"></span>
+                            </span>
+                        </div>
+                        <span class="form-control-feedback glyphicon glyphicon-ok" style="right:55px;" ng-show="insertForm.nameEN.$valid"></span>
+                        <span class="form-control-feedback glyphicon glyphicon-remove" style="right:55px;" ng-show="insertForm.nameEN.$touched && insertForm.nameEN.$invalid"></span>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="form-group col-md-6">
-                        <label>Descrizione</label>
-                        <textarea rows="10" class="form-control" ng-model="descIT" placeholder="Scrivi qui la descrizione"></textarea>
+                    <div class="form-group col-md-6" ng-class="{ 'has-error has-feedback': insertForm.descIT.$touched && insertForm.descIT.$invalid, 'has-success has-feedback': insertForm.descIT.$valid }">
+                        <label class="control-label" for="descIT">Descrizione</label>
+                        <div class="input-group">
+                            <textarea rows="10" class="form-control" name="descIT" ng-model="descIT" placeholder="Scrivi qui la descrizione" required></textarea>
+                            <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-asterisk"></span>
+                            </span>
+                        </div>
+                        <span class="form-control-feedback glyphicon glyphicon-ok" style="right:55px;" ng-show="insertForm.descIT.$valid"></span>
+                        <span class="form-control-feedback glyphicon glyphicon-remove" style="right:55px;" ng-show="insertForm.descIT.$touched && insertForm.descIT.$invalid"></span>
                     </div>
-                    <div class="form-group col-md-6">
-                        <label>Description</label>
-                        <textarea rows="10" class="form-control" ng-model="descEN" placeholder="Write here the description"></textarea>
+                    <div class="form-group col-md-6" ng-class="{ 'has-error has-feedback': insertForm.descEN.$touched && insertForm.descEN.$invalid, 'has-success has-feedback': insertForm.descEN.$valid }">
+                        <label class="control-label" for="descEN">Description</label>
+                        <div class="input-group">
+                            <textarea rows="10" class="form-control" name="descEN" ng-model="descEN" placeholder="Write here the description" required></textarea>
+                            <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-asterisk"></span>
+                            </span>
+                        </div>
+                        <span class="form-control-feedback glyphicon glyphicon-ok" style="right:55px;" ng-show="insertForm.descEN.$valid"></span>
+                        <span class="form-control-feedback glyphicon glyphicon-remove" style="right:55px;" ng-show="insertForm.descEN.$touched && insertForm.descEN.$invalid"></span>
                     </div>
                 </div>
                 <div class="form-group">
                     <label>Foto della nave / Picture of the boat</label>
-                    <br />
-                    <div class="button btn btn-primary" ngf-select ng-model="skabadubuda" name="file" ngf-pattern="'image/*'"
-                         ngf-accept="'image/*'" ngf-max-size="20MB" ngf-min-height="100"
-                         ngf-resize="{width: 100, height: 100}">Seleziona</div>
-                    <p class="help-block">{{skabadubuda.name}}</p>
-                </div>
-                <div class="row">
-                    <div class="form-group col-md-6">
-                        <label>Opere eseguite sulla nave</label>
-                        <input type="text" class="form-control" ng-model="scopeIT" placeholder="Scrivi le opere eseguite">
-                    </div>
-                    <div class="form-group col-md-6">
-                        <label>Works on the boat</label>
-                        <input type="text" class="form-control" ng-model="scopeEN" placeholder="Write the works">
+                    <div class="row">
+                        <div class="col-md-1">
+                            <div class="button btn btn-primary" ngf-select ng-model="skabadubuda" name="file" ngf-pattern="'image/*'" ngf-accept="'image/*'" ngf-max-size="20MB" ngf-min-height="100" ngf-resize="{width: 100, height: 100}">Seleziona</div>
+                        </div>
+                        <div class="col-md-11">
+                            <p class="help-block">{{skabadubuda.name}}</p>
+                        </div>
                     </div>
                 </div>
-                <br />
-                <button type="submit" class="btn btn-primary col-md-offset-4 col-md-4" ng-click="insert()" ng-disabled="insertForm.$invalid">Submit</button>
+                <br /><br />
+                <button type="submit" class="btn btn-primary col-md-offset-4 col-md-4" ng-click="insert()" ng-disabled="insertForm.$invalid && insertForm.skabadubuda == null">Submit</button>
             </div>
         </form>
+        <br />
+        <section class="row">
+            <article class="col-md-offset-2 col-md-8">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Nome Nave</th>
+                            <th>Description</th>
+                            <th>Update</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody ng-repeat="b in boatsIT">
+                        <tr>
+                            <td>{{b.name}}</td>
+                            <td>{{b.description}}</td>
+                            <td>
+                                <button class="btn btn-warning" ng-click="update(b)">
+                                    <i class="glyphicon glyphicon-pencil"></i>
+                                </button>
+                            </td>
+                            <td>
+                                <button class="btn btn-danger" ng-click="delete(b)">
+                                    <i class="glyphicon glyphicon-remove"></i>
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </section>
     </div>
 
 

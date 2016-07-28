@@ -1,0 +1,28 @@
+﻿[
+  {
+    "id": 1,
+    "name": "blablabla",
+    "description": "bla",
+    "picture": "capo.jpg",
+    "objModify": {
+      "$ngfName": "capo.jpg",
+      "$ngfOrigSize": 878144,
+      "size": 10134,
+      "type": "image/jpeg",
+      "name": "capo.jpg"
+    }
+  },
+  {
+    "id": 2,
+    "name": "blablabla",
+    "description": "bla",
+    "picture": "capo.jpg",
+    "objModify": {
+      "$ngfName": "capo.jpg",
+      "$ngfOrigSize": 878144,
+      "size": 10134,
+      "type": "image/jpeg",
+      "name": "capo.jpg"
+    }
+  }
+]

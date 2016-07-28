@@ -1,15 +1,19 @@
-﻿<div class="col-xs-12">
+﻿<div class="col-md-10 col-md-offset-1">
     <div class="row">
         <div class="row">
-            <h2>RICERCA & SVILUPPO</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eros tortor, vehicula a metus sed, egestas efficitur metus. Praesent blandit placerat dolor et consequat. Pellentesque mollis rhoncus magna, sit amet pulvinar nisi laoreet ut. Nullam in justo nunc. Ut luctus tristique fermentum. Vivamus rutrum est id bibendum fringilla. Mauris nec erat velit. Ut hendrerit nulla eu congue elementum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi volutpat rutrum tellus, et hendrerit neque mattis nec.</p>
+            <h2 style="text-align:center;">RICERCA & SVILUPPO</h2>
+            <div class="col-md-8 col-md-offset-2">
+                <p translate="ABOUT-US.R&D.DESCRIPTION1"></p>
+            </div>
         </div>
         <div class="row">
             <div class="col-md-3" ng-repeat="partner in partners">
                 <p>{{partner.DESC}}</p>
             </div>
         </div>
-
+        <div ng-repeat="partner in partners | translateFilter:search">
+            {{ partner.DESC | translate }}
+        </div>  
 
     </div>
 
