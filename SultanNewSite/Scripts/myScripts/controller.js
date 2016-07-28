@@ -33,6 +33,13 @@ site.controller('worksCtrl', function ($translate, stringsJson, $rootscope) {
     })
 })
 
+site.controller('showMoreCtrl', function ($translate, $scope) {
+    $translate('ABOUT-US.R&D.PARTNERS').then(function (response) {
+        $scope.partners = response
+        console.log($scope.partners)
+    })
+})
+
 site2.controller('insertCtrl', function ($scope, arrayBoats, Upload) {
     /*stringsJson.get()
         .success(function (response) {
